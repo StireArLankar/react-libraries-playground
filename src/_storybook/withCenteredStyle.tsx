@@ -1,4 +1,5 @@
 import React from 'react'
+import { CssBaseline } from '@material-ui/core'
 
 export const withCenteredStyle = (style = {}) => (storyfn: any) => {
   return (
@@ -12,6 +13,7 @@ export const withCenteredStyle = (style = {}) => (storyfn: any) => {
         color: 'white',
       }}
     >
+      <CssBaseline />
       <div
         style={{
           width: 300,
