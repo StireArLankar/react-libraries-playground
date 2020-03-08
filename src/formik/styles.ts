@@ -17,6 +17,7 @@ export default makeStyles((theme: Theme) =>
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'flex-start',
+      minWidth: 500,
     },
   })
 )

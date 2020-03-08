@@ -22,10 +22,7 @@ const validationSchema = yup.object().shape({
     .max(10),
   pets: yup.array().of(
     yup.object({
-      name: yup
-        .string()
-        .typeError('pet name is required')
-        .required(),
+      name: yup.string().required('Pet name is required'),
     })
   ),
 })
