@@ -47,8 +47,10 @@
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.14",
     "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-storyshots": "^5.3.17",
     "@storybook/addons": "^5.3.14",
     "@storybook/react": "^5.3.14",
-    "@types/yup": "^0.26.32"
+    "@types/yup": "^0.26.32",
+    "react-test-renderer": "^16.13.0"
   }
 }

@@ -1,0 +1,1195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Formik Complex 1`] = `
+<div
+  className="makeStyles-wrapper-158"
+>
+  <div>
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
+      >
+        Click me to break 
+        0
+      </span>
+    </button>
+    <span
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-198 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <input
+          className="PrivateSwitchBase-input-201"
+          data-indeterminate={false}
+          onChange={[Function]}
+          type="checkbox"
+          value={false}
+        />
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <form
+    action="#"
+    className="makeStyles-form-159"
+    onReset={[Function]}
+    onSubmit={[Function]}
+  >
+    <div>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline"
+        onClick={[Function]}
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby=" "
+          className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&#8203;",
+              }
+            }
+          />
+        </div>
+        <input
+          onAnimationStart={[Function]}
+          type="hidden"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div />
+    <div
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Submit
+        </span>
+      </button>
+    </div>
+    <pre>
+      {
+  "fields": [
+    "test3"
+  ],
+  "selectedFields": []
+}
+    </pre>
+    <pre>
+      {}
+    </pre>
+  </form>
+</div>
+`;
+
+exports[`Storyshots Formik Example 1`] = `
+<div
+  className="makeStyles-wrapper-1"
+>
+  <form
+    action="#"
+    className="makeStyles-form-2"
+    onReset={[Function]}
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root"
+    >
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          name="firstName"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="firstName"
+          required={false}
+          type="input"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root MuiTextField-root"
+    >
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          name="firstName"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="firstName"
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <span
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <input
+          checked={false}
+          className="PrivateSwitchBase-input-49"
+          data-indeterminate={false}
+          name="isTall"
+          onChange={[Function]}
+          type="checkbox"
+          value={false}
+        />
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+          />
+        </svg>
+      </span>
+    </span>
+    <div>
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input-49"
+            data-indeterminate={false}
+            name="cookies"
+            onChange={[Function]}
+            type="checkbox"
+            value="1"
+          />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </span>
+      </span>
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input-49"
+            data-indeterminate={false}
+            name="cookies"
+            onChange={[Function]}
+            type="checkbox"
+            value="2"
+          />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </span>
+      </span>
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input-49"
+            data-indeterminate={false}
+            name="cookies"
+            onChange={[Function]}
+            type="checkbox"
+            value="3"
+          />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+    <div>
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-47 Mui-checked MuiIconButton-colorSecondary"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            checked={true}
+            className="PrivateSwitchBase-input-49"
+            name="yogurt"
+            onChange={[Function]}
+            type="radio"
+            value="apple"
+          />
+          <div
+            className="PrivateRadioButtonIcon-root-76 PrivateRadioButtonIcon-checked-78"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-77"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+      </span>
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input-49"
+            name="yogurt"
+            onChange={[Function]}
+            type="radio"
+            value="peach"
+          />
+          <div
+            className="PrivateRadioButtonIcon-root-76"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-77"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+      </span>
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input-49"
+            name="yogurt"
+            onChange={[Function]}
+            type="radio"
+            value="orange"
+          />
+          <div
+            className="PrivateRadioButtonIcon-root-76"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-77"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+      </span>
+    </div>
+    <div>
+      <label
+        className="MuiFormControlLabel-root"
+        onBlur={[Function]}
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-47 Mui-checked MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              checked={true}
+              className="PrivateSwitchBase-input-49"
+              name="yogurt"
+              onChange={[Function]}
+              type="radio"
+              value="apple"
+            />
+            <div
+              className="PrivateRadioButtonIcon-root-76 PrivateRadioButtonIcon-checked-78"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-77"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          apple
+        </span>
+      </label>
+      <label
+        className="MuiFormControlLabel-root"
+        onBlur={[Function]}
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              checked={false}
+              className="PrivateSwitchBase-input-49"
+              name="yogurt"
+              onChange={[Function]}
+              type="radio"
+              value="peach"
+            />
+            <div
+              className="PrivateRadioButtonIcon-root-76"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-77"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          peach
+        </span>
+      </label>
+      <label
+        className="MuiFormControlLabel-root"
+        onBlur={[Function]}
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              checked={false}
+              className="PrivateSwitchBase-input-49"
+              name="yogurt"
+              onChange={[Function]}
+              type="radio"
+              value="orange"
+            />
+            <div
+              className="PrivateRadioButtonIcon-root-76"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-77"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          orange
+        </span>
+      </label>
+    </div>
+    <div
+      className="MuiFormControl-root MuiTextField-root"
+    >
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          name="firstName"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="firstName"
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      
+    </div>
+    <div>
+      <div>
+        <div
+          className="MuiFormControl-root MuiTextField-root"
+        >
+          <div
+            className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiInput-input"
+              disabled={false}
+              name="pets[0].name"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="pet name"
+              required={false}
+              type="text"
+              value="jarvis"
+            />
+          </div>
+          
+        </div>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline"
+          onClick={[Function]}
+        >
+          <div
+            aria-haspopup="listbox"
+            aria-labelledby=" mui-component-select-pets[0].type"
+            className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+            id="mui-component-select-pets[0].type"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            cat
+          </div>
+          <input
+            name="pets[0].type"
+            onAnimationStart={[Function]}
+            type="hidden"
+            value="cat"
+          />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            x
+          </span>
+        </button>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Add pet
+        </span>
+      </button>
+    </div>
+    <div
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Submit
+        </span>
+      </button>
+    </div>
+    <pre>
+      {
+  "firstName": "",
+  "isTall": false,
+  "cookies": [],
+  "yogurt": "apple",
+  "pets": [
+    {
+      "type": "cat",
+      "name": "jarvis",
+      "id": "123"
+    }
+  ]
+}
+    </pre>
+    <pre>
+      {}
+    </pre>
+  </form>
+</div>
+`;
+
+exports[`Storyshots Mobx Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+        "width": 300,
+      }
+    }
+  >
+    <main>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "margin": 10,
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        <div>
+          <div>
+            Counter1: 
+            0
+          </div>
+          <button
+            onClick={[Function]}
+          >
+            ++
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            --
+          </button>
+          <div>
+            Component renders: 
+            0
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "width": 50,
+            }
+          }
+        />
+        <div>
+          <div>
+            View: 
+            0
+          </div>
+          <div>
+            Component renders: 
+            0
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "width": 50,
+            }
+          }
+        />
+        <div>
+          <div>
+            Control
+          </div>
+          <div>
+            Component renders: 
+            0
+          </div>
+          <button
+            onClick={[Function]}
+          >
+            ++
+          </button>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "margin": 10,
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        <div>
+          <div>
+            Counter2: 
+            0
+          </div>
+          <button
+            onClick={[Function]}
+          >
+            ++
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            --
+          </button>
+          <div>
+            Component renders: 
+            0
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "width": 50,
+            }
+          }
+        />
+        <div>
+          <div>
+            View2: 
+            0
+          </div>
+          <div>
+            Component renders: 
+            0
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "width": 50,
+            }
+          }
+        />
+        <div>
+          <div>
+            Control2
+          </div>
+          <div>
+            Component renders: 
+            0
+          </div>
+          <button
+            onClick={[Function]}
+          >
+            ++
+          </button>
+        </div>
+      </div>
+      <div>
+        light
+      </div>
+      <button
+        onClick={[Function]}
+      >
+        set theme: light
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        set theme: dark
+      </button>
+      <p>
+        Component renders: 
+        0
+      </p>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Mobx2 Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "block",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="App"
+    >
+      <header
+        className="App-header"
+      >
+        <input
+          onChange={[Function]}
+          value=""
+        />
+        <div
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "display": "flex",
+            }
+          }
+        >
+          <ul />
+          <div
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          />
+          <ul />
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            onChange={[Function]}
+            value=""
+          />
+          <button>
+            Submit
+          </button>
+        </form>
+      </header>
+    </div>
+  </div>
+</div>
+`;

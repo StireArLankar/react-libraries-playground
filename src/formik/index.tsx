@@ -39,7 +39,7 @@ export default () => {
           isTall: false,
           cookies: [],
           yogurt: 'apple',
-          pets: [{ type: 'cat', name: 'jarvis', id: '' + Math.random() }],
+          pets: [{ type: 'cat', name: 'jarvis', id: '123' }],
         }}
         onSubmit={(data, props) => {
           props.setSubmitting(true)
