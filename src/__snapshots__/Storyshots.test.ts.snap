@@ -1193,3 +1193,5 @@ exports[`Storyshots Mobx2 Example 1`] = `
   </div>
 </div>
 `;
+
+exports[`Storyshots Test CI Test Example 1`] = `<div />`;
