@@ -1,3 +1,5 @@
+![GH CI test](https://github.com/StireArLankar/react-libraries-playground/workflows/GH%20CI%20test/badge.svg?branch=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
