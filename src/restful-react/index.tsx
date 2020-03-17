@@ -12,7 +12,7 @@ export interface Posts {
 }
 
 export default () => {
-  const { data, loading, error, refetch } = useGet<Posts[]>(
+  const { data, loading, error, refetch } = useGet<Posts[], any, void>(
     'https://jsonplaceholder.typicode.com/posts'
   )
 
