@@ -28,7 +28,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "story": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "generate-fetcher": "restful-react import --file ./src/restful-react-codegen/petstore.json --output ./src/restful-react-codegen/requests.tsx",
+    "postgenerate-fetcher": "npx prettier ./src/restful-react-codegen/requests.tsx --write"
   },
   "eslintConfig": {
     "extends": "react-app"
