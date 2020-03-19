@@ -1194,6 +1194,193 @@ exports[`Storyshots Mobx2 Example 1`] = `
 </div>
 `;
 
+exports[`Storyshots Overmind Todo App 1`] = `
+<div
+  className="todoapp"
+>
+  <header
+    className="header"
+  >
+    <h1>
+      todos
+    </h1>
+    <input
+      className="new-todo"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="What needs to be done?"
+      value=""
+    />
+  </header>
+  <section
+    className="main"
+  >
+    <input
+      checked={true}
+      className="toggle-all"
+      id="toggle-all"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      htmlFor="toggle-all"
+    >
+      Mark all as complete
+    </label>
+    <ul
+      className="todo-list"
+    />
+  </section>
+  <footer
+    className="footer"
+  >
+    <span
+      className="todo-count"
+    >
+      <strong>
+        0
+      </strong>
+       
+      items
+       left
+    </span>
+    <ul
+      className="filters"
+    >
+      <li>
+        <a
+          className="selected"
+          href="/"
+        >
+          All
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="/active"
+        >
+          Active
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="/completed"
+        >
+          Completed
+        </a>
+      </li>
+    </ul>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Restful React + Mobx Example 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      onClick={[Function]}
+    >
+      Nothing
+    </div>
+    <div
+      style={
+        Object {
+          "textAlign": "left",
+        }
+      }
+    >
+      <pre>
+        Error: 
+        null
+      </pre>
+      <pre>
+        loading: 
+        true
+      </pre>
+      <pre>
+        null
+      </pre>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Restful React + Mobx Mock Error 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      onClick={[Function]}
+    >
+      Nothing
+    </div>
+    <div
+      style={
+        Object {
+          "textAlign": "left",
+        }
+      }
+    >
+      <pre>
+        Error: 
+        null
+      </pre>
+      <pre>
+        loading: 
+        true
+      </pre>
+      <pre>
+        null
+      </pre>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Restful React + Mobx Mock Example 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      onClick={[Function]}
+    >
+      Nothing
+    </div>
+    <div
+      style={
+        Object {
+          "textAlign": "left",
+        }
+      }
+    >
+      <pre>
+        Error: 
+        null
+      </pre>
+      <pre>
+        loading: 
+        true
+      </pre>
+      <pre>
+        null
+      </pre>
+    </div>
+  </header>
+</div>
+`;
+
 exports[`Storyshots Restful React Codegen Example 1`] = `
 <div
   style={
