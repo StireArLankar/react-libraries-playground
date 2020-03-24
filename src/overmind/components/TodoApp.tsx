@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useApp } from '../overmind'
 
 import { TodoItem } from './TodoItem'
@@ -6,9 +6,13 @@ import { TodoFooter } from './TodoFooter'
 import { TodoHeader } from './TodoHeader'
 
 export const TodoApp = () => {
-  const { state, actions } = useApp()
+  const { state, actions, effects } = useApp()
 
-  console.log(state.currentTodos)
+  useEffect(() => {
+    console.log(effects.ids.create())
+  }, [effects])
+
+  console.log(state)
 
   return (
     <div className='todoapp'>
