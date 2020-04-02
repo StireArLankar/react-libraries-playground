@@ -8,13 +8,13 @@ class Store {
   query = ''
 
   @computed
-  get cities () {
+  get cities() {
     return this.__cities.slice()
   }
 
   @computed
-  get filteredCities () {
-    return this.cities.filter(city => city.toLowerCase().includes(this.query))
+  get filteredCities() {
+    return this.cities.filter((city) => city.toLowerCase().includes(this.query))
   }
 
   @action

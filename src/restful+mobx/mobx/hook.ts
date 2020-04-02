@@ -22,9 +22,8 @@ export const useStoreData = <Selection, ContextData, Store>(
   })
 }
 
-export const useRootData = <Selection>(
-  dataSelector: (store: TStore) => Selection
-) => useStoreData(storeContext, contextData => contextData.store, dataSelector)
+export const useRootData = <Selection>(dataSelector: (store: TStore) => Selection) =>
+  useStoreData(storeContext, (contextData) => contextData.store, dataSelector)
 
 export const usePetData = <S>(selector: (store: TPetStore) => S) =>
-  useStoreData(storeContext, ctx => ctx.petStore, selector)
+  useStoreData(storeContext, (ctx) => ctx.petStore, selector)

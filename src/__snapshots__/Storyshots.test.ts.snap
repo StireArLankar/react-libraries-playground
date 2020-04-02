@@ -1,5 +1,72 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Emoticon Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "justifyContent": "center",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="css-19hrg3b"
+    >
+      <div
+        className="css-q52hd2"
+      >
+        test
+      </div>
+      <div
+        className="css-4dt5rr"
+      >
+        test2
+      </div>
+      <div
+        className="css-1ts4moi"
+      >
+        test3
+      </div>
+      <div>
+        <button
+          className="css-ckju5p"
+          width={50}
+        >
+          hotpink
+        </button>
+      </div>
+      <div>
+        <button
+          className="css-1wodnji"
+          width={100}
+        >
+          turquoise
+        </button>
+      </div>
+      <div
+        className="css-wcb2ri"
+        src="https://picsum.photos/200"
+        width={100}
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Formik Complex 1`] = `
 <div
   className="makeStyles-wrapper-158"
@@ -1273,6 +1340,55 @@ exports[`Storyshots Overmind Todo App 1`] = `
       </li>
     </ul>
   </footer>
+</div>
+`;
+
+exports[`Storyshots Redux toolkit Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+        "width": 300,
+      }
+    }
+  >
+    <div>
+      <button
+        onClick={[Function]}
+      >
+        Click
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        Click2
+      </button>
+      <p>
+        loaded!
+      </p>
+      <p>
+        Primary: 
+        -10
+      </p>
+      <p>
+        Secondary: 
+        
+      </p>
+    </div>
+  </div>
 </div>
 `;
 
