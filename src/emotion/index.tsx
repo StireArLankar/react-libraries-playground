@@ -1,6 +1,6 @@
 import React from 'react'
-import { css as csss, cx, keyframes } from 'emotion'
-import styled from '@emotion/styled'
+import { css as csss, cx, keyframes } from 'emotion/macro'
+import styled from '@emotion/styled/macro'
 
 const Button = styled.button<{ primary?: boolean; width: number }>`
   color: ${(props) => (props.primary ? 'hotpink' : 'turquoise')};

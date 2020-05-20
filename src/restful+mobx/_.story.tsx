@@ -9,22 +9,22 @@ export default {
 }
 
 const mockData = {
-  id: 1,
-  category: { id: 1, name: 'MOCK NAME' },
+  id: 5,
+  category: { id: 5, name: 'MOCK NAME' },
   name: 'MOCK',
   photoUrls: ['MOCK URL'],
-  tags: [{ id: 1, name: 'MOCK NAME' }],
+  tags: [{ id: 5, name: 'MOCK NAME' }],
   status: 'available',
 }
 
 export const example = () => {
-  const id = Math.min(number('id', 1), 1)
+  const id = Math.min(number('id', 5), 5)
 
   return <Component id={id} />
 }
 
 export const mockExample = () => {
-  const id = Math.min(number('id', 1), 1)
+  const id = Math.min(number('id', 5), 5)
 
   return (
     <FetchStory
@@ -32,7 +32,7 @@ export const mockExample = () => {
       throttle={2000}
       mocks={[
         {
-          matcher: 'http://petstore.swagger.io/v2/pet/1',
+          matcher: 'https://petstore.swagger.io/v2/pet/5',
           response: {
             body: JSON.stringify(mockData),
           },
@@ -46,7 +46,7 @@ export const mockExample = () => {
 }
 
 export const mockError = () => {
-  const id = Math.min(number('id', 1), 1)
+  const id = Math.min(number('id', 5), 5)
 
   return (
     <FetchStory
@@ -54,7 +54,7 @@ export const mockError = () => {
       throttle={2000}
       mocks={[
         {
-          matcher: 'http://petstore.swagger.io/v2/pet/1',
+          matcher: 'https://petstore.swagger.io/v2/pet/5',
           response: {
             status: 404,
           },

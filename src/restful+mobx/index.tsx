@@ -6,7 +6,7 @@ import { RestfulProvider } from 'restful-react'
 
 export default ({ id }: any) => {
   return (
-    <RestfulProvider base='http://petstore.swagger.io/v2'>
+    <RestfulProvider base='https://petstore.swagger.io/v2'>
       <StoreProvider>
         <div className='App'>
           <header className='App-header'>

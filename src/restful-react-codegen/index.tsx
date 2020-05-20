@@ -5,7 +5,7 @@ import { Button } from '@material-ui/core'
 
 export default () => {
   return (
-    <RestfulProvider base='http://petstore.swagger.io/v2'>
+    <RestfulProvider base='https://petstore.swagger.io/v2'>
       <Temp />
     </RestfulProvider>
   )
