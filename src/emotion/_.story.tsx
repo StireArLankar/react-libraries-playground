@@ -15,9 +15,6 @@ export default {
       placeItems: 'center',
     }),
   ],
-  parameters: {
-    storyshots: { disable: true },
-  },
 }
 
 export const example = () => <Component />

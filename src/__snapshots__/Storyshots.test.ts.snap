@@ -1,5 +1,105 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Emoticon Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "justifyContent": "center",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="css-aplwgc-container"
+    >
+      <div
+        className="css-iocgp2-cs1"
+      >
+        test
+      </div>
+      <div
+        className="css-1lyzgxj-cs2"
+      >
+        test2
+      </div>
+      <div
+        className="css-utwuu8-cs3-cs4"
+      >
+        test3
+      </div>
+      <div>
+        <button
+          className="css-5s8xsf-Button eixr2mm0"
+          width={50}
+        >
+          hotpink
+        </button>
+      </div>
+      <div>
+        <button
+          className="css-gaj9kz-Button eixr2mm0"
+          width={100}
+        >
+          turquoise
+        </button>
+      </div>
+      <div
+        className="css-ceuo4t-Image0 eixr2mm1"
+        src="https://picsum.photos/200"
+        width={100}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Emoticon Theme Example 1 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "justifyContent": "center",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="css-1uwfii"
+      color="primary"
+    >
+      Hello world
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Formik Complex 1`] = `
 <div
   className="makeStyles-wrapper-158"
