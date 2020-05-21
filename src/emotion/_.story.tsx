@@ -19,10 +19,10 @@ export default {
 
 export const example = () => <Component />
 
-export const themeExample1 = () => (
+export const themeExample = () => (
   <ButtonV1 color={radios('color', Color, Color.primary)}>Hello world</ButtonV1>
 )
 
-// export const themeExample2 = () => (
-//   <Button color={radios('color', Color, Color.primary)}>Hello world</Button>
-// )
+export const nestedSelector = () => (
+  <Button color={radios('color', Color, Color.primary)}>Hello world</Button>
+)

@@ -1,6 +1,7 @@
-import styled, { Theme } from './styled'
-import { ThemeProvider } from 'emotion-theming'
+// import styled, { Theme } from './styled'
 import React from 'react'
+import styled from '@emotion/styled/macro'
+import { Theme, ThemeProvider } from '@emotion/react'
 
 export enum Color {
   negative = 'negative',
@@ -32,14 +33,14 @@ const Button = styled('button')<ButtonProps>`
   & > ${Snap} {
     position: absolute;
     background: linear-gradient(red 0%, blue 100%);
-    opacity: 0.3;
+    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
   }
-  & > span {
-    opacity: 0.4;
+  & > div {
+    position: relative;
   }
 `
 
@@ -55,14 +56,14 @@ type Props = React.DetailedHTMLProps<
   React.ButtonHTMLAttributes<HTMLButtonElement>,
   HTMLButtonElement
 > & {
-  color: Color
+  color?: Color
 }
 
 export default ({ children, ...props }: Props) => (
   <ThemeProvider theme={theme}>
     <Button {...props}>
-      {children}
       <Snap />
+      <div>{children}</div>
     </Button>
   </ThemeProvider>
 )

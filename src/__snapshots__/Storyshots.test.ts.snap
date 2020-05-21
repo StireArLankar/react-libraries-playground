@@ -67,7 +67,7 @@ exports[`Storyshots Emoticon Example 1`] = `
 </div>
 `;
 
-exports[`Storyshots Emoticon Theme Example 1 1`] = `
+exports[`Storyshots Emoticon Nested Selector 1`] = `
 <div
   style={
     Object {
@@ -91,7 +91,45 @@ exports[`Storyshots Emoticon Theme Example 1 1`] = `
     }
   >
     <button
-      className="css-1uwfii"
+      className="css-1npl1y8-Button en3p0an0"
+      color="primary"
+    >
+      <span
+        className="css-1azudtu-Snap en3p0an1"
+      />
+      <div>
+        Hello world
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Emoticon Theme Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "justifyContent": "center",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="css-50bsw0-Button emzzlxm0"
       color="primary"
     >
       Hello world

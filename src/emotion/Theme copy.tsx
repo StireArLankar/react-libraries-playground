@@ -1,6 +1,6 @@
-import styled, { Theme } from './styled'
-import { ThemeProvider } from 'emotion-theming'
 import React from 'react'
+import styled from '@emotion/styled/macro'
+import { Theme, ThemeProvider } from '@emotion/react'
 
 export enum Color {
   negative = 'negative',
