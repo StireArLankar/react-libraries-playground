@@ -1414,6 +1414,120 @@ exports[`Storyshots Overmind Todo App 1`] = `
 </div>
 `;
 
+exports[`Storyshots React Laag Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "height": "100%",
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <div>
+      <div
+        onClick={[Function]}
+        style={
+          Object {
+            "userSelect": "none",
+          }
+        }
+      >
+        Click me!
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots React Laag Hover Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "height": "100%",
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+    >
+      hover me!
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots React Laag Render Props Example 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "height": "100%",
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="toggle-btn"
+      onClick={[Function]}
+    >
+      Toggle
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Redux toolkit Example 1`] = `
 <div
   style={
