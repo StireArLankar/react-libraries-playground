@@ -1,6 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Emoticon Example 1`] = `
+@keyframes animation-0 {
+  from, 20%, 53%, 80%, to {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    -webkit-transform: translate3d(0,-30px,0);
+    -ms-transform: translate3d(0,-30px,0);
+    transform: translate3d(0,-30px,0);
+  }
+
+  70% {
+    -webkit-transform: translate3d(0,-15px,0);
+    -ms-transform: translate3d(0,-15px,0);
+    transform: translate3d(0,-15px,0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    -ms-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.emotion-9 {
+  display: grid;
+  grid-template-columns: repeat(6,100px);
+  width: 100%;
+  grid-gap: 20px;
+}
+
+.emotion-0 {
+  background-color: hotpink;
+}
+
+.emotion-0:hover {
+  color: darkgreen;
+}
+
+.emotion-1 {
+  background-color: hotpink;
+}
+
+.emotion-1:hover {
+  color: darkgreen;
+}
+
+.emotion-2 {
+  background-color: hotpink;
+  color: red;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  -webkit-animation: animation-0 1s ease infinite;
+  animation: animation-0 1s ease infinite;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+.emotion-2:hover {
+  color: darkgreen;
+}
+
+.emotion-3 {
+  color: hotpink;
+  display: grid;
+  border: 2px solid black;
+  width: 50px;
+}
+
+.emotion-5 {
+  color: turquoise;
+  display: grid;
+  border: 2px solid black;
+  width: 100px;
+}
+
+.emotion-7 {
+  width: 100px;
+  background: url(https://picsum.photos/200) center center;
+  background-size: contain;
+  color: black;
+}
+
 <div
   style={
     Object {
@@ -24,26 +111,26 @@ exports[`Storyshots Emoticon Example 1`] = `
     }
   >
     <div
-      className="css-aplwgc-container"
+      className="emotion-9"
     >
       <div
-        className="css-iocgp2-cs1"
+        className="emotion-0"
       >
         test
       </div>
       <div
-        className="css-1lyzgxj-cs2"
+        className="emotion-1"
       >
         test2
       </div>
       <div
-        className="css-utwuu8-cs3-cs4"
+        className="emotion-2"
       >
         test3
       </div>
       <div>
         <button
-          className="css-5s8xsf-Button eixr2mm0"
+          className="emotion-3 emotion-4"
           width={50}
         >
           hotpink
@@ -51,14 +138,14 @@ exports[`Storyshots Emoticon Example 1`] = `
       </div>
       <div>
         <button
-          className="css-gaj9kz-Button eixr2mm0"
+          className="emotion-5 emotion-4"
           width={100}
         >
           turquoise
         </button>
       </div>
       <div
-        className="css-ceuo4t-Image0 eixr2mm1"
+        className="emotion-7 emotion-8"
         src="https://picsum.photos/200"
         width={100}
       />
@@ -68,6 +155,28 @@ exports[`Storyshots Emoticon Example 1`] = `
 `;
 
 exports[`Storyshots Emoticon Nested Selector 1`] = `
+.emotion-2 {
+  padding: 20px;
+  background-color: blue;
+  font-size: 20px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.emotion-2 > .emotion-1 {
+  position: absolute;
+  background: linear-gradient(red 0%,blue 100%);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.emotion-2 > div {
+  position: relative;
+}
+
 <div
   style={
     Object {
@@ -91,11 +200,11 @@ exports[`Storyshots Emoticon Nested Selector 1`] = `
     }
   >
     <button
-      className="css-1npl1y8-Button en3p0an0"
+      className="emotion-2 emotion-3"
       color="primary"
     >
       <span
-        className="css-1azudtu-Snap en3p0an1"
+        className="emotion-0 emotion-1"
       />
       <div>
         Hello world
@@ -106,6 +215,14 @@ exports[`Storyshots Emoticon Nested Selector 1`] = `
 `;
 
 exports[`Storyshots Emoticon Theme Example 1`] = `
+.emotion-0 {
+  padding: 20px;
+  background-color: blue;
+  font-size: 20px;
+  border-radius: 3px;
+  position: relative;
+}
+
 <div
   style={
     Object {
@@ -129,7 +246,7 @@ exports[`Storyshots Emoticon Theme Example 1`] = `
     }
   >
     <button
-      className="css-50bsw0-Button emzzlxm0"
+      className="emotion-0 emotion-1"
       color="primary"
     >
       Hello world

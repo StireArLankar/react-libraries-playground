@@ -75,6 +75,7 @@
     "babel-plugin-emotion": "^10.0.33",
     "babel-plugin-styled-components": "^1.10.7",
     "fetch-mock": "^9.2.1",
+    "jest-emotion": "^10.0.32",
     "prettier": "^2.0.2",
     "react-test-renderer": "^16.13.0"
   }
