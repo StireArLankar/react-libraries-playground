@@ -3,6 +3,7 @@ import Component from '.'
 import Hover from './Hover'
 import RenderProps from './RenderProps'
 import { withCenteredStyle } from '../_storybook/withCenteredStyle'
+import Complex from './complex'
 
 export default {
   title: 'React Laag',
@@ -22,3 +23,5 @@ export const example = () => <Component />
 
 export const hoverExample = () => <Hover />
 export const renderPropsExample = () => <RenderProps />
+
+export const complexExample = () => <Complex />

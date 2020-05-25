@@ -1531,6 +1531,134 @@ exports[`Storyshots Overmind Todo App 1`] = `
 </div>
 `;
 
+exports[`Storyshots React Laag Complex Example 1`] = `
+.emotion-2 {
+  position: relative;
+  width: 500px;
+  height: 380px;
+  overflow: auto;
+  background-color: #f9fafb;
+  margin-top: 32px;
+}
+
+.emotion-0 {
+  width: 56px;
+  height: 56px;
+  color: white;
+  border: none;
+  background-color: #2ea09b;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  will-change: transform;
+}
+
+.emotion-0.emotion-0:hover {
+  background-color: #268e89;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.emotion-0 svg {
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  will-change: transform;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "height": "100%",
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "placeItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="emotion-2 emotion-3"
+    >
+      <div
+        style={
+          Object {
+            "left": 1000,
+            "position": "relative",
+            "top": 1000,
+          }
+        }
+      >
+        <button
+          className="emotion-0 emotion-1"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-AxjAm gXIMwt"
+            fill="currentColor"
+            focusable="false"
+            height={28}
+            viewBox="0 0 24 24"
+            width={28}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "height": 2000,
+            "width": 2000,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots React Laag Example 1`] = `
 <div
   style={
